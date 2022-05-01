@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card components</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <main class="container">
+        <div class="card-section--1 container--width">
+            <div class="heading-wrapper">
+                <h2 class="heading-secondary">Check out the latest news</h2>
+                <a href="#" class="btn btn--big">Show all articles</a>
+            </div>
+            <div class="card card--1">
+                <img
+                    class="card__image" 
+                    srcset="img/image-1.jpg 1x, img/image-1@2x.jpg 2x"
+                    alt="Computer keyboard with backlight"
+                    src="img/image-1@2x.jpg">
+                <div class="card__text">
+                    <h3 class="heading-tertiary mb-16">
+                        Being smart.
+                        <br>
+                        Workspaces crave it too
+                    </h3>
+                    <h4 class="subheading mb-32">22. may 2020</h4>
+                    <a href="#" class="btn btn--small">Read more</a>
+                </div>
+            </div>
+            <div class="card card--2">
+                <img
+                    class="card__image" 
+                    srcset="img/image-2.jpg 1x, img/image-2@2x.jpg 2x"
+                    alt="Huge office buildings"
+                    src="img/image-2@2x.jpg">
+                <div class="card__text">
+                    <h3 class="heading-tertiary mb-16">
+                        5 things you may be doing differently when back in office
+                    </h3>
+                    <h4 class="subheading mb-32">20. may 2020</h4>
+                    <a href="#" class="btn btn--small">Read more</a>
+                </div>
+            </div>
+            <div class="card card--3">
+                <img
+                    class="card__image" 
+                    srcset="img/image-3.jpg 1x, img/image-3@2x.jpg 2x"
+                    alt="Man taking photo in winter"
+                    src="img/image-3@2x.jpg">
+                <div class="card__text">
+                    <h3 class="heading-tertiary mb-16">
+                        Office tech helps with tracking COVID-19 exposure 
+                        and creating a safe environment
+                    </h3>
+                    <h4 class="subheading mb-32">16. may 2020</h4>
+                    <a href="#" class="btn btn--small">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-section--2 container--width">
+            <div class="heading-wrapper mb-40">
+                <h2 class="heading-secondary">Check out the latest news</h2>
+                <div class="slider-btn-wrapper">
+                    <button class="slider-btn slider-btn--left">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Arrow Back</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M244 400L100 256l144-144M120 256h292"/></svg>
+                    </button>
+                    <button class="slider-btn slider-btn--right">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Arrow Forward</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="slider slider--1">
+                <div class="slide slide--1">
+                    <div class="card card--slider card--1">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-1.jpg 1x, img/image-1@2x.jpg 2x"
+                            alt="Computer keyboard with backlight"
+                            src="img/image-1@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                Being smart.
+                                <br>
+                                Workspaces crave it too
+                            </h3>
+                            <h4 class="subheading mb-32">22. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card card--slider card--2">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-2.jpg 1x, img/image-2@2x.jpg 2x"
+                            alt="Huge office buildings"
+                            src="img/image-2@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                5 things you may be doing differently when back in office
+                            </h3>
+                            <h4 class="subheading mb-32">20. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card card--slider card--3">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-3.jpg 1x, img/image-3@2x.jpg 2x"
+                            alt="Man taking photo in winter"
+                            src="img/image-3@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                Office tech helps with tracking COVID-19 exposure 
+                                and creating a safe environment
+                            </h3>
+                            <h4 class="subheading mb-32">16. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide--2">
+                    <div class="card card--slider card--4">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-4.jpg 1x, img/image-4@2x.jpg 2x"
+                            alt="Modern color buildings"
+                            src="img/image-4@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                Office tech helps with tracking COVID-19 exposure 
+                                and creating a safe environment
+                            </h3>
+                            <h4 class="subheading mb-32">16. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card card--slider card--5">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-5.jpg 1x, img/image-5@2x.jpg 2x"
+                            alt="Woman in sunflowers field"
+                            src="img/image-5@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                5 things you may be doing differently when back in office
+                            </h3>
+                            <h4 class="subheading mb-32">20. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card card--slider card--6">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-6.jpg 1x, img/image-6@2x.jpg 2x"
+                            alt="Man taking photo in winter"
+                            src="img/image-6@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                Being smart.
+                                <br>
+                                Workspaces crave it too
+                            </h3>
+                            <h4 class="subheading mb-32">22. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider slider--2">
+                <div class="slide slide--1">
+                    <div class="card card--slider card--1">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-1.jpg 1x, img/image-1@2x.jpg 2x"
+                            alt="Computer keyboard with backlight"
+                            src="img/image-1@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                Being smart.
+                                <br>
+                                Workspaces crave it too
+                            </h3>
+                            <h4 class="subheading mb-32">22. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card card--slider card--2">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-2.jpg 1x, img/image-2@2x.jpg 2x"
+                            alt="Huge office buildings"
+                            src="img/image-2@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                5 things you may be doing differently when back in office
+                            </h3>
+                            <h4 class="subheading mb-32">20. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide--2">
+                    <div class="card card--slider card--3">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-3.jpg 1x, img/image-3@2x.jpg 2x"
+                            alt="Man taking photo in winter"
+                            src="img/image-3@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                Office tech helps with tracking COVID-19 exposure 
+                                and creating a safe environment
+                            </h3>
+                            <h4 class="subheading mb-32">16. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card card--slider card--4">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-4.jpg 1x, img/image-4@2x.jpg 2x"
+                            alt="Modern color buildings"
+                            src="img/image-4@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                Office tech helps with tracking COVID-19 exposure 
+                                and creating a safe environment
+                            </h3>
+                            <h4 class="subheading mb-32">16. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide--3">
+                    <div class="card card--slider card--5">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-5.jpg 1x, img/image-5@2x.jpg 2x"
+                            alt="Woman in sunflowers field"
+                            src="img/image-5@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                5 things you may be doing differently when back in office
+                            </h3>
+                            <h4 class="subheading mb-32">20. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card card--slider card--6">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-6.jpg 1x, img/image-6@2x.jpg 2x"
+                            alt="Man taking photo in winter"
+                            src="img/image-6@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                Being smart.
+                                <br>
+                                Workspaces crave it too
+                            </h3>
+                            <h4 class="subheading mb-32">22. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider slider--3">
+                <div class="slide slide--1">
+                    <div class="card card--slider card--1">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-1.jpg 1x, img/image-1@2x.jpg 2x"
+                            alt="Computer keyboard with backlight"
+                            src="img/image-1@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                Being smart.
+                                <br>
+                                Workspaces crave it too
+                            </h3>
+                            <h4 class="subheading mb-32">22. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide--2">
+                    <div class="card card--slider card--2">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-2.jpg 1x, img/image-2@2x.jpg 2x"
+                            alt="Huge office buildings"
+                            src="img/image-2@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                5 things you may be doing differently when back in office
+                            </h3>
+                            <h4 class="subheading mb-32">20. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide--3">
+                    <div class="card card--slider card--3">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-3.jpg 1x, img/image-3@2x.jpg 2x"
+                            alt="Man taking photo in winter"
+                            src="img/image-3@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                Office tech helps with tracking COVID-19 exposure 
+                                and creating a safe environment
+                            </h3>
+                            <h4 class="subheading mb-32">16. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide--4">
+                    <div class="card card--slider card--4">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-4.jpg 1x, img/image-4@2x.jpg 2x"
+                            alt="Modern color buildings"
+                            src="img/image-4@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                Office tech helps with tracking COVID-19 exposure 
+                                and creating a safe environment
+                            </h3>
+                            <h4 class="subheading mb-32">16. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide--5">
+                    <div class="card card--slider card--5">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-5.jpg 1x, img/image-5@2x.jpg 2x"
+                            alt="Woman in sunflowers field"
+                            src="img/image-5@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                5 things you may be doing differently when back in office
+                            </h3>
+                            <h4 class="subheading mb-32">20. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide--6">
+                    <div class="card card--slider card--6">
+                        <img
+                            class="card__image" 
+                            srcset="img/image-6.jpg 1x, img/image-6@2x.jpg 2x"
+                            alt="Man taking photo in winter"
+                            src="img/image-6@2x.jpg">
+                        <div class="card__text">
+                            <h3 class="heading-tertiary mb-16">
+                                Being smart.
+                                <br>
+                                Workspaces crave it too
+                            </h3>
+                            <h4 class="subheading mb-32">22. may 2020</h4>
+                            <a href="#" class="btn btn--small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-section--3 container--width">
+            <div class="heading-wrapper mb-40">
+                <h2 class="heading-secondary">Check out the latest news</h2>
+                <div class="slider-btn-wrapper">
+                    <button class="slider-btn scroll-btn--left">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Arrow Back</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M244 400L100 256l144-144M120 256h292"/></svg>
+                    </button>
+                    <button class="slider-btn scroll-btn--right">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Arrow Forward</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="scroll-container">
+                <div class="card scroll-card card--4">
+                    <img
+                        class="card__image" 
+                        srcset="img/image-4.jpg 1x, img/image-4@2x.jpg 2x"
+                        alt="Modern color buildings"
+                        src="img/image-4@2x.jpg">
+                    <div class="card__text">
+                        <h3 class="heading-tertiary mb-16">
+                            Office tech helps with tracking COVID-19 exposure 
+                            and creating a safe environment
+                        </h3>
+                        <h4 class="subheading mb-32">16. may 2020</h4>
+                        <a href="#" class="btn btn--small">Read more</a>
+                    </div>
+                </div>
+                <div class="card scroll-card card--5">
+                    <img
+                        class="card__image" 
+                        srcset="img/image-5.jpg 1x, img/image-5@2x.jpg 2x"
+                        alt="Woman in sunflowers field"
+                        src="img/image-5@2x.jpg">
+                    <div class="card__text">
+                        <h3 class="heading-tertiary mb-16">
+                            5 things you may be doing differently when back in office
+                        </h3>
+                        <h4 class="subheading mb-32">20. may 2020</h4>
+                        <a href="#" class="btn btn--small">Read more</a>
+                    </div>
+                </div>
+                <div class="card scroll-card card--6">
+                    <img
+                        class="card__image" 
+                        srcset="img/image-6.jpg 1x, img/image-6@2x.jpg 2x"
+                        alt="Man taking photo in winter"
+                        src="img/image-6@2x.jpg">
+                    <div class="card__text">
+                        <h3 class="heading-tertiary mb-16">
+                            Being smart.
+                            <br>
+                            Workspaces crave it too
+                        </h3>
+                        <h4 class="subheading mb-32">22. may 2020</h4>
+                        <a href="#" class="btn btn--small">Read more</a>
+                    </div>
+                </div>
+                <div class="card scroll-card card--1">
+                    <img
+                        class="card__image" 
+                        srcset="img/image-1.jpg 1x, img/image-1@2x.jpg 2x"
+                        alt="Computer keyboard with backlight"
+                        src="img/image-1@2x.jpg">
+                    <div class="card__text">
+                        <h3 class="heading-tertiary mb-16">
+                            Being smart.
+                            <br>
+                            Workspaces crave it too
+                        </h3>
+                        <h4 class="subheading mb-32">22. may 2020</h4>
+                        <a href="#" class="btn btn--small">Read more</a>
+                    </div>
+                </div>
+                <div class="card scroll-card card--2">
+                    <img
+                        class="card__image" 
+                        srcset="img/image-2.jpg 1x, img/image-2@2x.jpg 2x"
+                        alt="Huge office buildings"
+                        src="img/image-2@2x.jpg">
+                    <div class="card__text">
+                        <h3 class="heading-tertiary mb-16">
+                            5 things you may be doing differently when back in office
+                        </h3>
+                        <h4 class="subheading mb-32">20. may 2020</h4>
+                        <a href="#" class="btn btn--small">Read more</a>
+                    </div>
+                </div>
+                <div class="card scroll-card card--3">
+                    <img
+                        class="card__image" 
+                        srcset="img/image-3.jpg 1x, img/image-3@2x.jpg 2x"
+                        alt="Man taking photo in winter"
+                        src="img/image-3@2x.jpg">
+                    <div class="card__text">
+                        <h3 class="heading-tertiary mb-16">
+                            Office tech helps with tracking COVID-19 exposure 
+                            and creating a safe environment
+                        </h3>
+                        <h4 class="subheading mb-32">16. may 2020</h4>
+                        <a href="#" class="btn btn--small">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

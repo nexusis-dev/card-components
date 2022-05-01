@@ -1,0 +1,25 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-grey-light-2;
+    border-radius: 2px;
+    overflow: hidden;
+
+    &__image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    &__text {
+        height: 100%;
+        padding: 3.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        &>*:last-child {
+            margin-top: auto;
+        }
+    }
+}

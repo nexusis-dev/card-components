@@ -1,0 +1,82 @@
+.slider {
+    position: relative;
+    overflow: hidden;
+
+    &--1 {
+        height: 50rem;
+        display: block;
+
+        @media only screen and (max-width: $bp-medium) {
+            display: none;
+        }
+
+        .slide {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 3rem;
+            height: 50rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+        
+            transition: transform 1s;
+        }
+    }
+
+    &--2 {
+        height: 50rem;
+        display: none;
+        
+        @media only screen and (max-width: $bp-medium) {
+            display: block;
+        }
+        
+        @media only screen and (max-width: $bp-small) {
+            display: none;
+        }
+
+        .slide {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 3rem;
+            position: absolute;
+            height: 50rem;
+            top: 0;
+            left: 0;
+        
+            transition: transform 1s;
+        }
+    }
+
+    &--3 {
+        height: 60rem;
+        display: none;
+        
+        @media only screen and (max-width: $bp-small) {
+            display: block;
+        }
+
+        @media only screen and (max-width: $bp-smaller) {
+            height: 50rem;
+        }
+
+        .slide {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            column-gap: 3rem;
+            position: absolute;
+            height: 60rem;
+            top: 0;
+            left: 0;
+        
+            transition: transform 1s;
+
+            @media only screen and (max-width: $bp-smaller) {
+                height: 50rem;
+            }
+        }
+    }
+}
